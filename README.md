@@ -1,5 +1,5 @@
 
-# Pitch
+# Blog post
 
 # Author
 
