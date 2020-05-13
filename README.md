@@ -18,7 +18,7 @@ The Blog It web application is meant for users to post pitches on any of the 7 d
 
 | Behaviour             |                Input                |                                                                       Output |
 | :-------------------- | :---------------------------------: | ---------------------------------------------------------------------------: |
-| Load the page         |          **On page load**           |                               Get all posts, Select between signup and login |
+| Load the page         |          **On page load**           |                               Get all posts, Select between sign up and login |
 | Select SignUp         | **Email**,**Username**,**Password** |                                                            Redirect to login |
 | Select Login          |    **Username** and **password**    | Redirect to page with app Blog based on categories and commenting section |
 | Select comment button |             **Comment**             |                                             Form that you input your comment |
