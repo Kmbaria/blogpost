@@ -64,6 +64,7 @@ Install [Postgres](https://www.postgresql.org/download/)
 ```python manage.py db upgrade```
 
 
+
 ### Running the app in development
 
 In the same terminal type:
