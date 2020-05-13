@@ -18,11 +18,11 @@ The Blog It web application is meant for users to post pitches on any of the 7 d
 
 | Behaviour             |                Input                |                                                                       Output |
 | :-------------------- | :---------------------------------: | ---------------------------------------------------------------------------: |
-| Load the page         |          **On page load**           |                               Get all posts, Select between signup and login |
-| Select SignUp         | **Email**,**Username**,**Password** |                                                            Redirect to login |
+| Load the page         |          **On page load**           |                               Get all posts, Select between sign up and login |
+| Select Sign Up         | **Email**,**Username**,**Password** |                                                            Redirect to login |
 | Select Login          |    **Username** and **password**    | Redirect to page with app pitches based on categories and commenting section |
 | Select comment button |             **Comment**             |                                             Form that you input your comment |
-| Click on submit       |                                     |       Redirect to all comments tamplate with your comment and other comments |
+| Click on submit       |                                     |       Redirect to all comments template with your comment and other comments |
 
 ## Set-up and Installation
 
