@@ -3,9 +3,9 @@
 
 # Author
 
-by George K mbariah
+by George K Mbaria
 
-## Overview & Description
+## Description
 
 Blog It is a web application that is meant for users to add any blog post on different categories and one can get likes or comments.
 
