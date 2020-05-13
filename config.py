@@ -3,7 +3,7 @@ import os
 class Config:
     SECRET_kEY=os.environ.get('SECRET_kEY')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://abdirahman:1234@localhost/manka'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kmbaria:1234@localhost/manka'
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
@@ -15,10 +15,10 @@ class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://abdirahman:1234@localhost/manka_test'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kmbaria:1234@localhost/manka_test'
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://abdirahman:1234@localhost/manka'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kmbaria:1234@localhost/manka'
     DEBUG = True
 
 config_options = {
