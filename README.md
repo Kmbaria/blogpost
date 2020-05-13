@@ -86,6 +86,7 @@ SQLAlchemy errors, automatic sign out has a short time span, deployment to herok
     - Heroku
     - Postgresql
 
+
 ## Support and contact details
 
 Contact me on Kmbaria.george@gmail.com for any comments, reviews or advice.
